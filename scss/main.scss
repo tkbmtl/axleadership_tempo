@@ -29,7 +29,6 @@ header {
 
 main {
     margin: 0 auto;
-    padding: 100px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +41,8 @@ main {
         text-align: center;
 
         img {
-            width: 300px;
+            padding-top: 40px;
+            width: 220px;
             padding-bottom: 30px;
         }
         p {
@@ -64,7 +64,7 @@ footer {
         right: 0px;
         bottom: 0px;
         z-index: 2;
-        width: 230px;
+        width: 150px;
     }
 }
 
@@ -73,10 +73,9 @@ footer {
         width: 100px;
     }
     main {
-        padding-top: 35px;
         .container {
             img {
-                width: 250px;
+                width: 170px;
             }
             p {
                 font-size: 16px;
